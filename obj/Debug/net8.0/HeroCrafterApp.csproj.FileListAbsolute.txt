@@ -1,0 +1,14 @@
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/bin/Debug/net8.0/HeroCrafterApp
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/bin/Debug/net8.0/HeroCrafterApp.deps.json
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/bin/Debug/net8.0/HeroCrafterApp.runtimeconfig.json
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/bin/Debug/net8.0/HeroCrafterApp.dll
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/bin/Debug/net8.0/HeroCrafterApp.pdb
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.AssemblyInfoInputs.cache
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.AssemblyInfo.cs
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.csproj.CoreCompileInputs.cache
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.dll
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/refint/HeroCrafterApp.dll
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.pdb
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.genruntimeconfig.cache
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/ref/HeroCrafterApp.dll

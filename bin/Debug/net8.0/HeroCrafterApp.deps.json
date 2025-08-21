@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HeroCrafterApp/1.0.0": {
+        "runtime": {
+          "HeroCrafterApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HeroCrafterApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
