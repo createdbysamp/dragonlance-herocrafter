@@ -1,5 +1,9 @@
-public class Hero
+public abstract class Hero
 {
+    // abstract method
+
+    public abstract void PerformSpecialAbility(Hero target);
+
     // private fields - only accessible inside the Hero class
     private int _health = 0;
     private int _attackPower = 0;
@@ -65,7 +69,7 @@ public class Hero
     }
 
     // member methods
-    public void DisplayHeroInfo()
+    public virtual void DisplayHeroInfo()
     {
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.WriteLine($"Name: {Name}");
@@ -75,28 +79,30 @@ public class Hero
         Console.ResetColor();
     }
 
-    public void TakeDamage(int damageAmount)
+    public virtual void TakeDamage(int damageAmount)
     {
         Health -= damageAmount;
         if (!IsAlive)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"{Name} the {HeroType} was defeated.");
+            Console.WriteLine($"\n{Name} the {HeroType} was defeated.\n");
             Console.ResetColor();
         }
         else
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(
                 $"{Name} the {HeroType} took {damageAmount} damage. Health: {Health}"
             );
+            Console.ResetColor();
         }
     }
 
     // attacking method
 
-    public void PerformAttack(Hero target)
+    public virtual void PerformAttack(Hero target)
     {
-        double randomMultiplier = _random.NextDouble() + .2;
+        double randomMultiplier = _random.NextDouble() + 1 + .5;
         int actualDamage = (int)(AttackPower * randomMultiplier);
 
         Console.WriteLine($"{Name} attacks {target.Name} for {actualDamage} damage!");

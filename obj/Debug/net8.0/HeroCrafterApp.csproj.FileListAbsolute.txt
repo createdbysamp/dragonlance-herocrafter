@@ -12,3 +12,4 @@
 /Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.pdb
 /Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.genruntimeconfig.cache
 /Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/ref/HeroCrafterApp.dll
+/Users/peezyg/Desktop/5-dotnet/HeroCrafterApp/obj/Debug/net8.0/HeroCrafterApp.sourcelink.json

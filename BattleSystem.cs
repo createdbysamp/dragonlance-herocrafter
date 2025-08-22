@@ -3,12 +3,12 @@ public static class BattleSystem
     public static void Battle(Hero hero1, Hero hero2)
     {
         // welcome to the game!
-        Console.WriteLine($"🔥 {hero1} vs {hero2} ✨");
+        Console.WriteLine($"🔥 {hero1.Name} vs {hero2.Name} ✨");
 
         // game logic to check for aliveness and attack
         while (hero1.IsAlive && hero2.IsAlive)
         {
-            Console.WriteLine("\n--- NEW TURN ---");
+            Console.WriteLine("\n--- NEW TURN ---\n");
 
             if (hero1.IsAlive)
             {
@@ -19,11 +19,15 @@ public static class BattleSystem
                 hero2.PerformAttack(hero1);
             }
             // ui revision
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.WriteLine("Press any key to continue ...");
+            Console.ResetColor();
             Console.ReadLine();
         }
         // declare winner / end
+        Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("END OF MATCH");
+        Console.ResetColor();
 
         // decide winner
         if (hero1.IsAlive)

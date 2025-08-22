@@ -1,15 +1,22 @@
 ﻿// initializing heroes
+Warrior hero1 = new("Tanis", "Half-Elf", 90, 10, "Longsword");
+Cleric hero2 = new("Raistlin", "Wizard", 70, 15, "Lightning");
+Warrior hero3 = new("Sturm", "Knight", 90, 12, "Broadsword");
 
-Hero hero1 = new Hero("Tanis", "Half-Elf", 90, 10);
-Hero hero2 = new Hero("Raistlin", "Wizard", 70, 15);
-Hero hero3 = new Hero("Sturm", "Knight", 90, 12);
-Hero hero4 = new Hero("Caramon", "Warrior", 95, 8);
-Hero hero5 = new Hero("Tasslehoff", "Kender", 60, 16);
-Hero hero6 = new Hero("Goldmoon", "Cleric", 80, 10);
-Hero hero8 = new Hero();
-Hero villian1 = new Hero("Unknown", "Draconian", 25, 20);
-Hero villian2 = new Hero("?", "DarkCleric", 65, 15);
+Warrior hero5 = new("Tasslehoff", "Kender", 60, 16, "Short Swords");
 
+Warrior villian1 = new("Unknown", "Draconian", 25, 20, "Claws");
+Cleric villian2 = new("Evenic", "DarkCleric", 65, 15, "Dark Fire");
+
+// Cleric hero2 = new Cleric("Raistlin", "Cleric", 70, 15, "Lightning");
+Warrior hero4 = new("Caramon", "Warrior", 105, 8, "Broadsword");
+Cleric hero6 = new("Goldmoon", "Cleric", 80, 10, "Fireball");
+
+// hero6.PerformSpecialAbility(hero4);
+// hero4.PerformSpecialAbility(hero6);
+// hero6.PerformSpecialAbility();
+
+// Hero hero8 = new Hero();
 // Hero hero10 = new Hero("Frank", "Sinatra", 0, -1);
 
 // hero1.DisplayHeroInfo();
@@ -44,7 +51,7 @@ BattleSystem.Battle(villian1, hero4);
 Hero finalist2 = villian1.IsAlive ? villian1 : hero4;
 
 // round 3
-Console.WriteLine("--- ROUND 3 ---");
+Console.WriteLine("\n--- ROUND 3 ---");
 BattleSystem.Battle(hero5, hero3);
 Hero finalist3 = hero5.IsAlive ? hero5 : hero3;
 
