@@ -34,6 +34,14 @@ class Cleric(string name, string heroType, int health, int attackPower, string s
 
     public override void DisplayHeroInfo()
     {
-        // Implementation here
+        Console.ForegroundColor = ConsoleColor.Black;
+        Console.WriteLine($"=== MAGE INFO ===");
+        Console.WriteLine($"Name: {Name}");
+        Console.WriteLine($"Class: {HeroType}");
+        Console.WriteLine($"Health: {Health}");
+        Console.WriteLine($"Attack Power: {AttackPower}");
+        Console.WriteLine($"Weapon Type: {SpellType}");
+        Console.WriteLine($"==================");
+        Console.ResetColor();
     }
 }

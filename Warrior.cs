@@ -39,7 +39,7 @@ public class Warrior(string name, string heroType, int health, int attackPower, 
 
     public override void DisplayHeroInfo()
     {
-        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine($"=== WARRIOR INFO ===");
         Console.WriteLine($"Name: {Name}");
         Console.WriteLine($"Class: {HeroType}");
