@@ -18,7 +18,6 @@ class Cleric(string name, string heroType, int health, int attackPower, string s
         Console.ForegroundColor = ConsoleColor.DarkRed;
         base.PerformAttack(target);
         base.PerformAttack(target);
-        base.PerformAttack(target);
         Console.ResetColor();
     }
 

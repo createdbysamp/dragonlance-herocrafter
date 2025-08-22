@@ -1,6 +1,6 @@
 ﻿// initializing heroes
 Warrior hero1 = new("Tanis", "Half-Elf", 90, 10, "Longsword");
-Cleric hero2 = new("Raistlin", "Wizard", 70, 15, "Lightning");
+Cleric hero2 = new("Raistlin", "Wizard", 65, 15, "Lightning");
 Warrior hero3 = new("Sturm", "Knight", 90, 12, "Broadsword");
 
 Warrior hero5 = new("Tasslehoff", "Kender", 60, 16, "Short Swords");

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeroCrafterApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4da9d75f08814267a7d2060746a85764c83212e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce1b6e65d9047b0872151f57f14d596c2d2e9503")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeroCrafterApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeroCrafterApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
